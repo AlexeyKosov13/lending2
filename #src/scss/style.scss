@@ -16,6 +16,7 @@
 // @import "_vendor.scss";
 @import "_global.scss";
 @import "_overall.scss";
+@import './components/_slider';
 
 
 /* components imports */
@@ -23,5 +24,9 @@
 @import './components/first';
 @import './components/become';
 @import './components/featured';
+@import './components/featured-videos';
+@import './components/newsletter';
+@import './components/insp';
+
 
 
