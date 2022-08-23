@@ -12,6 +12,22 @@
 </head>
 <body>
     <div class="site-container">
+        <div class="menu">
+            <button class="menu__close btn-reset" aria-label="close menu">
+                <span class="menu__close-line"></span>
+                <span class="menu__close-line"></span>
+            </button>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Become A Travel</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Feaatured Stories</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Featured Videos</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Newsletter</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
         @@include('_header.html',{})
         <main>
             @@include('_first.html',{})
@@ -21,6 +37,7 @@
             @@include('_newsletter.html',{})
             @@include('_insp.html',{})
         </main>
+        @@include('_footer.html',{})
     </div>
 
 

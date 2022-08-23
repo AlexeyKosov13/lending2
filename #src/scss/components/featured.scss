@@ -77,6 +77,12 @@
     &__link {
         display: inline-block;
         background-color: var(--neptune-color);
+        transition: background-color 0.3s;
+
+        &:hover {
+            transition: background-color 0.3s;
+            background-color: var(--neptune-hover-color);
+        }
     }
 }
 
