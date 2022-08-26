@@ -10,9 +10,11 @@
         </p>
       </div>
       <form action="/" class="newsletter__form subscribe-form">
+        <input type="hidden" name="admin_email[]" value="foster-13@yandex.ru">
+        <input type="hidden" name="form_subject" value="Заявка с сайта Mitravel">
         <input type="text" name="name" placeholder="Name" class="subscribe-form__field" />
-        <input type="email" name="Email" placeholder="Email" class="subscribe-form__field" />
-        <input type="tel" name="tel" placeholder="Phone Number" class="subscribe-form__field" />
+        <input type="email" name="Email" placeholder="Email" data-validate-field="email"  class="subscribe-form__field" />
+        <input type="tel" name="tel" placeholder="Phone Number" data-validate-field="tel" class="subscribe-form__field" />
         <button class="btn btn-reset subscribe-form__btn">Sign Up Now</button>
       </form>
     </div>
